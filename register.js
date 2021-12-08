@@ -48,7 +48,7 @@ $(".form").validate({
         };
         var json = JSON.stringify(user);
         localStorage.setItem("username", json)
-        document.location.href = "midka/dl2.html";
+        document.location.href = "dl2.html";
         }
         function loginFunc(e){
             event.preventDefault();
