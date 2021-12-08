@@ -53,7 +53,7 @@ $(".form").validate({
                 result.innerHTML = 'wrong username';
             }
             else if(username == data.username && password == data.password){
-                document.location.href = "midka/dl2.html";
+                document.location.href = "dl2.html";
             }else{
                 result.innerHTML = 'wrong password';
             }
